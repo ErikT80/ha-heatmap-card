@@ -2,14 +2,20 @@ name: CO₂, indoor exposure
 type: absolute
 device_class: carbon_dioxide
 steps:
-  - value: 520
-    color: "#6d9b17"
+  - value: 400
+    color: "#286aa6"
+  - value: 600
+    color: "#1a5c33"
+  - value: 800
+    color: "#39ac47"
   - value: 1000
-    color: "#FFBF00"
-  - value: 1400
-    color: "#cf0000"
-  - value: 3000
-    color: "#5b0f8c"
+    color: "#85bf41"
+  - value: 1200
+    color: "#f0ab48"
+  - value: 2000
+    color: "#da6631"
+  - value: 5000
+    color: "#da3e38"
 documentation:
   text: |
     CO₂ levels reflect the amount of fresh air in a space. High levels
